@@ -22,6 +22,11 @@
             key-positions = <16 15 14>;
             layers = <0>;
         };
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <2 3 4>;
+        };
     };
 
     keymap {
