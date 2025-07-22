@@ -47,7 +47,7 @@
             key-positions = <32 33>;
         };
 
-        right_shift {
+        right_control {
             bindings = <&kp LEFT_CONTROL>;
             key-positions = <19 20>;
         };
