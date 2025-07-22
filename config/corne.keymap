@@ -69,10 +69,10 @@
         movements_layer {
             display-name = "Movements";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &none     &kp PAGE_DOWN  &kp PAGE_UP   &none      &none  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT  &kp DOWN       &kp UP_ARROW  &kp RIGHT  &none  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &none     &kp END        &kp HOME      &none      &none  &trans
+                        &trans  &trans  &trans    &trans    &trans         &trans
             >;
         };
 
