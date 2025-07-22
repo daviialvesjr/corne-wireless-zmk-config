@@ -36,6 +36,11 @@
             bindings = <&kp ESC>;
             key-positions = <7 8 9>;
         };
+
+        open_square_brackets {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <31 32>;
+        };
     };
 
     keymap {
