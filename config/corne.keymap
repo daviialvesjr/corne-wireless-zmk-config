@@ -51,6 +51,11 @@
             bindings = <&kp LEFT_CONTROL>;
             key-positions = <19 20>;
         };
+
+        right_shift {
+            bindings = <&kp LEFT_SHIFT>;
+            key-positions = <20 21>;
+        };
     };
 
     keymap {
